@@ -13,7 +13,7 @@ public class WebTests {
         Configuration.browserSize = "1920x1080";
         //Configuration.holdBrowserOpen = true;
     }
-
+    
     @DisplayName("Добавление товара из раздела Кофе в Корзину")
     @Test
     @Tags({@Tag("UI"), @Tag("Cart"), @Tag("Drinks")})
